@@ -34,13 +34,13 @@ the database using other MySQL clients.
 
 To set up the dependencies for the Python client:
 
-`sudo pip install -r client-requirements.txt`
+`pip install -r client-requirements.txt`
 
 To run the client:
 
 `python client.py`
 
-Shouldn't have any errors.
+Shouldn't be any errors.
 
 # Author, Licence
 
