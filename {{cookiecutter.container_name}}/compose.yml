@@ -1,0 +1,12 @@
+services:
+  db:
+    image: mysql
+    restart: always
+    container_name: {{cookiecutter.container_name}}
+    env_file:
+      - .env
+    ports:
+      - {{cookiecutter.port}}:3306
+    volumes:
+      - ./{{cookiecutter.container_name}}_data:/var/lib/mysql
+

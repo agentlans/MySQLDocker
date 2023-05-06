@@ -1,0 +1,6 @@
+{
+    "container_name": "mysql-database",
+    "root_password": "SqueamishOssifrage",
+    "port": 3306
+}
+
